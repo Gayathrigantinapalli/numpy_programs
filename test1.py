@@ -1,4 +1,4 @@
-#  import numpy as np
+# import numpy as np
 # x=np.array([12,13,14,15])
 # print(x)
 # y=x .copy()
@@ -29,6 +29,8 @@
 # print(y)
 
 
+
+
 # import numpy as np
 # x=np.array([10,11,12,13,14,15,16,17])
 #1-d to 3-d
@@ -37,16 +39,22 @@
 # print(y)
 
 
+
+
+
+
 # import numpy as np
 # x=np.array([10,11,12,13,14,15,16,17])
+# # import numpy as np
+# x=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
 # y=[]
 # for i in range(len(x)):
-#     # print(i)
-#     if i%3==0:
-#         y.append(100)
-#     else:
-#         y.append(i)
+
+#     y.append(x[i])
 # print(x)
+
+
+
 
 # import numpy as np
 # x=np.array([10,11,12,13,14,15,16,17])
@@ -56,12 +64,18 @@
 # print(x)
 
 
-import numpy as np
-x=np.array([[10,11,12,13,15],[16,17,18,19,20]])
-for i in x:
-    # print(x)
-    for j in i:
-        print(j)
+
+
+
+# import numpy as np
+# x=np.array([[10,11,12,13,15],[16,17,18,19,20]])
+# for i in x:
+#     # print(x)
+#     for j in i:
+#         print(j)
+
+
+
 
 
 
@@ -73,3 +87,19 @@ for i in x:
 #         print(j)
 #         for k in j:
 #             print(k)
+
+
+
+# import numpy as np
+# x=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
+# y=[]
+# for i in range(len(x)):
+#     for j in range(len(x[i])):
+#         for k in range(len(x[i][j])):
+#             y.append(x[i][j][k])
+#         #    y = x.flatten()
+#         #    y = x.flatten().tolist()
+# print(y)
+
+
+
