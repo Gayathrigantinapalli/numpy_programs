@@ -90,10 +90,24 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+# import numpy as np
+# x=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
+# for i in range (len(x)):
+#     x[i]=np.where(x[i]%3==0,100,x[i])    
+# print(x)
+
+
+
+
+>>>>>>> fb961e2 (time)
 # import numpy as np
 # x=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
 # y=[]
 # for i in range(len(x)):
+<<<<<<< HEAD
 #     for j in range(len(x[i])):
 #         for k in range(len(x[i][j])):
 #             y.append(x[i][j][k])
@@ -102,4 +116,20 @@
 # print(y)
 
 
+=======
+#     # print(i)
+#     if i%3==0:
+#         y.append(100)
+#     else:
+#         y.append(i)
+# print(x)
+
+
+# import numpy as np
+# x=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
+# for i in x:
+#     # print(x)
+#     for j in i:
+#         print(j)
+>>>>>>> fb961e2 (time)
 
